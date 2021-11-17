@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml   首页-->
+<view class="container-home">
+  <!-- 头部搜索框 -->
+  <view class="search">
+    <view class="searchInp">
+      <icon size="20" type="search"></icon>搜索
+    </view>
+  </view>
+  <!-- 轮播图区域 -->
+  <view class="banner">
+    <swiper indicator-dots="{{showIndicator}}" autoplay="{{isAutoplay}}" current="{{current}}" indicator-color="rgba(255,255,255,0.8)" indicator-active-color="rgba(255,255,255,1)" interval="{{interval}}" duration="{{duration}}">
+      <view wx:for="{{imgsrc}}" wx:key="index">
+        <swiper-item>
+          <view>
+            <image src="{{item}}"></image>
+          </view>
+        </swiper-item>
+      </view>
+
+    </swiper>
+  </view>
+</view>

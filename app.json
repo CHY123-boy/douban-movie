@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/list/list",
+    "pages/me/me",
+    "pages/movieDetail/movieDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#06b822",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "./images/icon/home.png",
+      "selectedIconPath": "./images/selectedIcon/home.png"
+    },{
+      "pagePath": "pages/list/list",
+      "text": "榜单",
+      "iconPath": "./images/icon/list.png",
+      "selectedIconPath": "./images/selectedIcon/list.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "./images/icon/me.png",
+      "selectedIconPath": "./images/selectedIcon/me.png"
+    }],
+    "borderStyle": "black",
+    "selectedColor": "#06b822",
+    "backgroundColor": "#ffffff"
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

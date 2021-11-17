@@ -1,0 +1,37 @@
+/* pages/home/home.wxss */
+.container-home {
+  width: 100%;
+}
+
+.search {
+  background: #06b822;
+  height: 50px;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.searchInp {
+  height: 30px;
+  background: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  color: #999999;
+}
+
+.searchInp>icon {
+  margin-right: 5rpx;
+  position: relative;
+  top: 10rpx;
+}
+.banner{
+  width: 100%;
+  padding:10rpx;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.banner image{
+  width: 100%;
+}
